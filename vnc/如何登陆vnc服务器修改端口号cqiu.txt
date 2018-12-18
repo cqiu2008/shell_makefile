@@ -1,0 +1,23 @@
+
+在运行窗口下，输入如下命令
+telnet 10.86.56.12
+
+输入用户名
+qiuchao
+qiuchao
+
+
+///分配端口号
+vncserver
+
+/// 杀死原来给分配的端口号
+
+vncserver -kill :端口号
+
+vncserver -kill :21
+
+
+/// 修改分辨率命令
+vncserver -geometry 1280x768
+
+

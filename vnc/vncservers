@@ -1,0 +1,36 @@
+# The VNCSERVERS variable is a list of display:user pairs.
+#
+# Uncomment the lines below to start a VNC server on display :2
+# as my 'myusername' (adjust this to your own).  You will also
+# need to set a VNC password; run 'man vncpasswd' to see how
+# to do that.  
+#
+# DO NOT RUN THIS SERVICE if your local area network is
+# untrusted!  For a secure way of using VNC, see
+# <URL:http://www.uk.research.att.com/archive/vnc/sshvnc.html>.
+
+# Use "-nolisten tcp" to prevent X connections to your VNC server via TCP.
+
+# Use "-nohttpd" to prevent web-based VNC clients connecting.
+
+# Use "-localhost" to prevent remote VNC clients connecting except when
+# doing so through a secure tunnel.  See the "-via" option in the
+# `man vncviewer' manual page.
+
+# VNCSERVERS="2:myusername"
+# VNCSERVERARGS[2]="-geometry 800x600 -nolisten tcp -nohttpd -localhost"
+VNCSERVERS="1:wangpan 2:qiuchao 3:jiangweiwei 4:guodapeng 5:xinglijia 6:change 7:zhouhengzhen 8:wangwenhui 9:sunlijun 10:liuhongxia 11:kongxianghui 12:zhangyu 13:yaowenda 14:dongyuqing"
+VNCSERVERARGS[1]="-geometry 1440x900"
+VNCSERVERARGS[2]="-geometry 1440x900"
+VNCSERVERARGS[3]="-geometry 1440x900"
+VNCSERVERARGS[4]="-geometry 1440x900"
+VNCSERVERARGS[5]="-geometry 1440x900"
+VNCSERVERARGS[6]="-geometry 1440x900"
+VNCSERVERARGS[7]="-geometry 1440x900"
+VNCSERVERARGS[8]="-geometry 1440x900"
+VNCSERVERARGS[9]="-geometry 1440x900"
+VNCSERVERARGS[10]="-geometry 1440x900"
+VNCSERVERARGS[11]="-geometry 1440x900"
+VNCSERVERARGS[12]="-geometry 1440x900"
+VNCSERVERARGS[13]="-geometry 1440x900"
+VNCSERVERARGS[14]="-geometry 1440x900"
